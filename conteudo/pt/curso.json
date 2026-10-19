@@ -6,7 +6,7 @@
   "sub": "Profissional 2030 · Base comum",
   "volta": {
     "t": "Área Profissional 2030",
-    "href": "https://eventos.inema.pro/prof2030/"
+    "href": "https://inematds.github.io/profissional-2030/"
   },
   "lado_card": {
     "rot": "Empresa-laboratório",
@@ -15,7 +15,7 @@
     "link": "Abrir o laboratório",
     "href": "https://inematds.github.io/prof2030-lab/"
   },
-  "rodape": "INEMA.CLUB · conteúdo aberto e gratuito · formato INEMA Learning v7.2 · <a href=\"https://eventos.inema.pro/prof2030/\">eventos.inema.pro/prof2030</a> · <a href=\"https://inema.club/\">inema.club</a>",
+  "rodape": "INEMA.CLUB · conteúdo aberto e gratuito · formato INEMA Learning v7.2 · <a href=\"https://inematds.github.io/profissional-2030/\">Profissional 2030</a> · <a href=\"https://inema.club/\">inema.club</a>",
   "videos": {},
   "inicio": {
     "kicker": "Profissional 2030 · Base comum · 8 aulas",
@@ -24,7 +24,7 @@
     "cta": "Começar pela aula 1",
     "cta2": {
       "t": "Ver o programa Profissional 2030",
-      "href": "https://eventos.inema.pro/prof2030/"
+      "href": "https://inematds.github.io/profissional-2030/"
     },
     "capa_alt": "Confiar no que a IA constrói — Profissional 2030, Base comum. Uma profissional examina com uma lupa um aplicativo no notebook.",
     "numeros": [
@@ -69,7 +69,7 @@
       {
         "t": "Faz parte do Profissional 2030",
         "itens": [
-          "Este curso é a Base comum do <a href=\"https://eventos.inema.pro/prof2030/\">Profissional 2030</a>, programa aberto do INEMA. Cada formação terá certificação INEMA; detalhes em breve. É certificação de qualificação, não profissão regulada.",
+          "Este curso é a Base comum do <a href=\"https://inematds.github.io/profissional-2030/\">Profissional 2030</a>, programa aberto do INEMA. Cada formação terá certificação INEMA; detalhes em breve. É certificação de qualificação, não profissão regulada.",
           "<a href=\"https://inematds.github.io/prof2030-base/\">Base comum: Confiar no que a IA constrói</a> (este curso)",
           "<a href=\"https://inematds.github.io/prof2030-consultor/\">Consultor de IA</a>: para dono e diretoria",
           "<a href=\"https://inematds.github.io/prof2030-auditor/\">Auditor de IA</a>: avaliação e triagem de riscos",
