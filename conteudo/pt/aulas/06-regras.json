@@ -13,10 +13,22 @@
     "saber-quando-chamar-o-juridico"
   ],
   "aprende": [
-    { "icone": "calendario", "t": "As datas do EU AI Act depois do adiamento de 2026" },
-    { "icone": "arquivo", "t": "Onde está o PL 2338 no Brasil" },
-    { "icone": "camadas", "t": "NIST AI RMF e ISO 42001: o que são e para que servem" },
-    { "icone": "lista", "t": "A linha do tempo de conformidade" }
+    {
+      "icone": "calendario",
+      "t": "As datas do EU AI Act depois do adiamento de 2026"
+    },
+    {
+      "icone": "arquivo",
+      "t": "Onde está o PL 2338 no Brasil"
+    },
+    {
+      "icone": "camadas",
+      "t": "NIST AI RMF e ISO 42001: o que são e para que servem"
+    },
+    {
+      "icone": "lista",
+      "t": "A linha do tempo de conformidade"
+    }
   ],
   "hero_alt": "Um calendário de papel com dias circulados em vermelho, livros grossos empilhados e uma ampulheta numa mesa escura.",
   "secoes": [
@@ -29,21 +41,36 @@
           "icone": "check",
           "titulo": "Já vale no Brasil",
           "sub": "LGPD",
-          "itens": [ { "icone": "arquivo", "t": "Lei 13.709/2018" } ],
+          "itens": [
+            {
+              "icone": "arquivo",
+              "t": "Lei 13.709/2018"
+            }
+          ],
           "detalhe": "A LGPD já vale para qualquer tratamento de dado pessoal, inclusive por IA. É a regra que mais pesa hoje para uma PME brasileira: base legal, transferência internacional, segurança e direito de revisão de decisão automatizada (aula 5)."
         },
         {
           "icone": "check",
           "titulo": "Já vale na UE",
           "sub": "Proibições, letramento, modelos de uso geral",
-          "itens": [ { "icone": "usuario", "t": "Letramento em IA desde 02/02/2025" } ],
+          "itens": [
+            {
+              "icone": "usuario",
+              "t": "Letramento em IA desde 02/02/2025"
+            }
+          ],
           "detalhe": "No EU AI Act, as práticas proibidas e a obrigação de letramento em IA (art. 4) valem desde 02/02/2025. Quem fornece ou usa sistemas de IA deve garantir que sua equipe entende o suficiente de IA. As regras para modelos de uso geral e de transparência também seguem no calendário original."
         },
         {
           "icone": "calendario",
           "titulo": "Com data na UE",
           "sub": "Alto risco: 02/12/2027",
-          "itens": [ { "icone": "relogio", "t": "Adiado pelo Digital Omnibus" } ],
+          "itens": [
+            {
+              "icone": "relogio",
+              "t": "Adiado pelo Digital Omnibus"
+            }
+          ],
           "detalhe": "O pacote Digital Omnibus, adotado em julho de 2026, adiou as regras de alto risco: sistemas do Anexo III (contratação, crédito, educação, infraestrutura crítica) passam a 02/12/2027; IA embutida em produtos regulados, a 02/08/2028. Vale para empresa brasileira que vende ou usa IA no mercado europeu.",
           "forte": true
         },
@@ -51,14 +78,24 @@
           "icone": "portao",
           "titulo": "Em discussão no Brasil",
           "sub": "PL 2338/2023",
-          "itens": [ { "icone": "arquivo", "t": "Comissão Especial da Câmara" } ],
+          "itens": [
+            {
+              "icone": "arquivo",
+              "t": "Comissão Especial da Câmara"
+            }
+          ],
           "detalhe": "O PL 2338/2023, que dispõe sobre o uso ético e responsável da IA, veio do Senado. Na ficha da Câmara, consultada em 19/10/2026, a situação é \"Aguardando Parecer do(a) Relator(a) na Comissão Especial\". Ainda não é lei: acompanhe, mas não trate como obrigação."
         },
         {
           "icone": "camadas",
           "titulo": "Voluntário",
           "sub": "NIST AI RMF, ISO/IEC 42001",
-          "itens": [ { "icone": "lista", "t": "Governar, mapear, medir, gerir" } ],
+          "itens": [
+            {
+              "icone": "lista",
+              "t": "Governar, mapear, medir, gerir"
+            }
+          ],
           "detalhe": "O NIST AI RMF (EUA) é um guia voluntário com quatro funções: governar, mapear, medir e gerir riscos. A ISO/IEC 42001:2023 é a norma de sistema de gestão de IA, certificável por organismo acreditado. Nenhum dos dois é lei, mas servem de checklist e de linguagem comum com clientes grandes."
         }
       ],
@@ -101,7 +138,10 @@
             "Toda linha precisa de quem cuida e da próxima ação, com data.",
             "Dúvida sobre se a regra se aplica, sobre contrato ou sobre base legal: é a hora de chamar o jurídico. Você organiza; o parecer é dele."
           ],
-          "exemplo": { "rot": "Horizonte", "texto": "LGPD · resumo de atendimento · dono: Rafael com o jurídico · parar o envio sem contrato até 30 dias." }
+          "exemplo": {
+            "rot": "Horizonte",
+            "texto": "LGPD · resumo de atendimento · dono: Rafael com o jurídico · parar o envio sem contrato até 30 dias."
+          }
         }
       ]
     },
@@ -183,7 +223,12 @@
         },
         {
           "p": "Depois do Digital Omnibus, quando passam a valer as regras de alto risco do Anexo III do AI Act?",
-          "opcoes": [ "02/02/2025", "02/08/2026", "02/12/2027", "Nunca: foram revogadas" ],
+          "opcoes": [
+            "02/02/2025",
+            "02/08/2026",
+            "02/12/2027",
+            "Nunca: foram revogadas"
+          ],
           "certa": 2,
           "explica": "Foram adiadas para 02/12/2027, não revogadas. Letramento e proibições continuam valendo desde 02/02/2025. O erro comum é ler \"adiou\" como \"acabou\".",
           "ref": "diagrama",
@@ -207,21 +252,58 @@
       "tipo": "resumo",
       "titulo": "Resumo da aula",
       "itens": [
-        { "t": "Já vale", "texto": "LGPD no Brasil; letramento e proibições do AI Act na UE desde 02/02/2025." },
-        { "t": "Tem data", "texto": "Alto risco do Anexo III do AI Act: 02/12/2027." },
-        { "t": "Em discussão", "texto": "PL 2338/2023 aguarda parecer na Comissão Especial da Câmara." },
-        { "t": "Voluntário", "texto": "NIST AI RMF e ISO/IEC 42001: checklist e linguagem comum." }
+        {
+          "t": "Já vale",
+          "texto": "LGPD no Brasil; letramento e proibições do AI Act na UE desde 02/02/2025."
+        },
+        {
+          "t": "Tem data",
+          "texto": "Alto risco do Anexo III do AI Act: 02/12/2027."
+        },
+        {
+          "t": "Em discussão",
+          "texto": "PL 2338/2023 aguarda parecer na Comissão Especial da Câmara."
+        },
+        {
+          "t": "Voluntário",
+          "texto": "NIST AI RMF e ISO/IEC 42001: checklist e linguagem comum."
+        }
       ]
     },
     {
       "tipo": "links",
       "titulo": "Fontes e para ir além",
       "links": [
-        { "t": "Software Improvement Group: resumo do EU AI Act com o Digital Omnibus (Reg. 2026/1744; alto risco → 02/12/2027)", "href": "https://www.softwareimprovementgroup.com/eu-ai-act-summary/", "icone": "arquivo" },
-        { "t": "EU AI Act, artigo 4: letramento em IA (vale desde 02/02/2025)", "href": "https://artificialintelligenceact.eu/article/4/", "icone": "usuario" },
-        { "t": "Câmara dos Deputados: ficha de tramitação do PL 2338/2023", "href": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2487262", "icone": "arquivo" },
-        { "t": "NIST: AI Risk Management Framework", "href": "https://www.nist.gov/itl/ai-risk-management-framework", "icone": "escudo" },
-        { "t": "Lei Geral de Proteção de Dados (Lei 13.709/2018)", "href": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm", "icone": "arquivo" }
+        {
+          "t": "Software Improvement Group: resumo do EU AI Act com o Digital Omnibus (Reg. 2026/1744; alto risco → 02/12/2027)",
+          "href": "https://www.softwareimprovementgroup.com/eu-ai-act-summary/",
+          "icone": "arquivo"
+        },
+        {
+          "t": "EU AI Act, artigo 4: letramento em IA (vale desde 02/02/2025)",
+          "href": "https://artificialintelligenceact.eu/article/4/",
+          "icone": "usuario"
+        },
+        {
+          "t": "Câmara dos Deputados: ficha de tramitação do PL 2338/2023",
+          "href": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2487262",
+          "icone": "arquivo"
+        },
+        {
+          "t": "NIST: AI Risk Management Framework",
+          "href": "https://www.nist.gov/itl/ai-risk-management-framework",
+          "icone": "escudo"
+        },
+        {
+          "t": "Lei Geral de Proteção de Dados (Lei 13.709/2018)",
+          "href": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm",
+          "icone": "arquivo"
+        },
+        {
+          "t": "BSI: o que é a ISO/IEC 42001 (sistema de gestão de IA)",
+          "href": "https://www.bsigroup.com/en-GB/products-and-services/standards/iso-42001-ai-management-system/",
+          "icone": "arquivo"
+        }
       ]
     }
   ]

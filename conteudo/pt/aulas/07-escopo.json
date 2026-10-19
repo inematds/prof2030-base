@@ -13,10 +13,22 @@
     "encaminhar-para-especialista"
   ],
   "aprende": [
-    { "icone": "check", "t": "O que um profissional de adoção de IA faz e entrega" },
-    { "icone": "x", "t": "O que fica com pentest, jurídico e resposta a incidente" },
-    { "icone": "chat", "t": "Responder ao cliente que pede garantia total" },
-    { "icone": "arquivo", "t": "O cartão de escopo de 5 linhas" }
+    {
+      "icone": "check",
+      "t": "O que um profissional de adoção de IA faz e entrega"
+    },
+    {
+      "icone": "x",
+      "t": "O que fica com pentest, jurídico e resposta a incidente"
+    },
+    {
+      "icone": "chat",
+      "t": "Responder ao cliente que pede garantia total"
+    },
+    {
+      "icone": "arquivo",
+      "t": "O cartão de escopo de 5 linhas"
+    }
   ],
   "hero_alt": "Mãos desenham com caneta uma linha firme que divide uma folha em branco em duas áreas, ao lado de uma régua e de um cartão.",
   "secoes": [
@@ -30,8 +42,14 @@
           "titulo": "O que você faz",
           "sub": "Diagnosticar, organizar, ensinar, acompanhar",
           "itens": [
-            { "icone": "lupa", "t": "Triagem de riscos com evidência" },
-            { "icone": "lista", "t": "Plano de 30 dias" }
+            {
+              "icone": "lupa",
+              "t": "Triagem de riscos com evidência"
+            },
+            {
+              "icone": "lista",
+              "t": "Plano de 30 dias"
+            }
           ],
           "detalhe": "Mapear onde há IA, achar riscos com evidência, organizar dados e regras, propor plano, treinar a equipe e acompanhar os resultados. É trabalho de método, não de garantia.",
           "forte": true
@@ -41,8 +59,14 @@
           "titulo": "O que você não faz",
           "sub": "Pentest, parecer jurídico, garantia total",
           "itens": [
-            { "icone": "cadeado", "t": "Teste de invasão" },
-            { "icone": "arquivo", "t": "Parecer sobre a LGPD" }
+            {
+              "icone": "cadeado",
+              "t": "Teste de invasão"
+            },
+            {
+              "icone": "arquivo",
+              "t": "Parecer sobre a LGPD"
+            }
           ],
           "detalhe": "Teste de invasão (pentest) e resposta a incidente ficam com profissionais de segurança habilitados, com autorização por escrito. Parecer jurídico fica com advogado ou com o encarregado de dados. E ninguém garante \"segurança total\"."
         },
@@ -50,14 +74,24 @@
           "icone": "usuario",
           "titulo": "Quando chamar",
           "sub": "O sinal de que passou da linha",
-          "itens": [ { "icone": "portao", "t": "Incidente, contrato, invasão, decisão legal" } ],
+          "itens": [
+            {
+              "icone": "portao",
+              "t": "Incidente, contrato, invasão, decisão legal"
+            }
+          ],
           "detalhe": "Suspeita de vazamento ou ataque em andamento, dúvida se uma lei se aplica, contrato com fornecedor, teste ativo em sistema: pare e chame quem é do ramo. O seu papel é perceber cedo e organizar o que o especialista vai precisar."
         },
         {
           "icone": "escudo",
           "titulo": "Sua credencial",
           "sub": "Qualificação, não profissão regulada",
-          "itens": [ { "icone": "check", "t": "Certificado INEMA de qualificação" } ],
+          "itens": [
+            {
+              "icone": "check",
+              "t": "Certificado INEMA de qualificação"
+            }
+          ],
           "detalhe": "O certificado do Profissional 2030 será uma certificação de qualificação emitida pelo INEMA, não uma profissão regulada. Também não é a certificação ISO/IEC 42001, que é dada a empresas por organismo acreditado. Diga exatamente o que ele é."
         }
       ],
@@ -84,7 +118,10 @@
             "Para cada entrega, diga o que ela garante e o que não garante. Uma triagem de riscos garante que os riscos achados estão documentados com evidência; não garante que não existam outros.",
             "Essa honestidade é o que faz o cliente voltar."
           ],
-          "exemplo": { "rot": "Frase pronta", "texto": "Eu aponto os riscos que achei, com evidência e prioridade. Isso não substitui um teste de invasão nem um parecer jurídico." }
+          "exemplo": {
+            "rot": "Frase pronta",
+            "texto": "Eu aponto os riscos que achei, com evidência e prioridade. Isso não substitui um teste de invasão nem um parecer jurídico."
+          }
         },
         {
           "titulo": "Nome de quem chamar",
@@ -108,37 +145,101 @@
       "tipo": "simconversa",
       "titulo": "Conversa simulada: o Carlos quer garantia",
       "sub": "Simulação para treinar. O Carlos Mendes, dono da Horizonte, pede três coisas que passam da linha. Escolha a resposta que você daria.",
-      "personagem": { "nome": "Carlos Mendes", "papel": "dono da Horizonte Distribuidora · 40 pessoas" },
+      "personagem": {
+        "nome": "Carlos Mendes",
+        "papel": "dono da Horizonte Distribuidora · 40 pessoas"
+      },
       "inicio": "abre",
       "falas": {
         "abre": {
           "cliente": "Quero que você garanta que o nosso agente de WhatsApp está 100% seguro. Consegue?",
           "opcoes": [
-            { "t": "Garanto, pode ficar tranquilo.", "vai": "fim-promessa", "nota": 0, "comenta": "Ninguém garante 100%. Se algo acontecer, a sua palavra vira o problema." },
-            { "t": "Ninguém garante 100%. Eu faço uma triagem dos riscos com evidência e um plano de 30 dias para os mais graves.", "vai": "invadir", "nota": 2, "comenta": "Você trocou a garantia por uma entrega que dá para conferir. É isso que gera confiança." },
-            { "t": "Posso dar uma olhada, mas sem prometer nada.", "vai": "invadir", "nota": 1, "comenta": "Honesto, mas vago: o Carlos não sabe o que vai receber. Diga a entrega." }
+            {
+              "t": "Garanto, pode ficar tranquilo.",
+              "vai": "fim-promessa",
+              "nota": 0,
+              "comenta": "Ninguém garante 100%. Se algo acontecer, a sua palavra vira o problema."
+            },
+            {
+              "t": "Ninguém garante 100%. Eu faço uma triagem dos riscos com evidência e um plano de 30 dias para os mais graves.",
+              "vai": "invadir",
+              "nota": 2,
+              "comenta": "Você trocou a garantia por uma entrega que dá para conferir. É isso que gera confiança."
+            },
+            {
+              "t": "Posso dar uma olhada, mas sem prometer nada.",
+              "vai": "invadir",
+              "nota": 1,
+              "comenta": "Honesto, mas vago: o Carlos não sabe o que vai receber. Diga a entrega."
+            }
           ]
         },
         "invadir": {
           "cliente": "Combinado. E já que você vai olhar, tenta invadir o sistema de pedidos do Rafael para ver se aguenta.",
           "opcoes": [
-            { "t": "Tento, me passa o acesso.", "vai": "fim-invasao", "nota": 0, "comenta": "Teste de invasão é pentest: pede profissional habilitado, escopo e autorização por escrito." },
-            { "t": "Teste de invasão é trabalho de um especialista em segurança, com autorização por escrito. Eu aponto onde vale contratar e o que ele deve testar.", "vai": "lgpd", "nota": 2, "comenta": "Você reconheceu a linha e transformou o pedido numa indicação útil." },
-            { "t": "Posso dar uma olhada rápida no sistema sem avisar o Rafael.", "vai": "fim-invasao", "nota": 0, "comenta": "Mexer em sistema sem o responsável saber é risco para você e para a empresa, mesmo com boa intenção." }
+            {
+              "t": "Tento, me passa o acesso.",
+              "vai": "fim-invasao",
+              "nota": 0,
+              "comenta": "Teste de invasão é pentest: pede profissional habilitado, escopo e autorização por escrito."
+            },
+            {
+              "t": "Teste de invasão é trabalho de um especialista em segurança, com autorização por escrito. Eu aponto onde vale contratar e o que ele deve testar.",
+              "vai": "lgpd",
+              "nota": 2,
+              "comenta": "Você reconheceu a linha e transformou o pedido numa indicação útil."
+            },
+            {
+              "t": "Posso dar uma olhada rápida no sistema sem avisar o Rafael.",
+              "vai": "fim-invasao",
+              "nota": 0,
+              "comenta": "Mexer em sistema sem o responsável saber é risco para você e para a empresa, mesmo com boa intenção."
+            }
           ]
         },
         "lgpd": {
           "cliente": "Faz sentido. E no fim você assina que estamos de acordo com a LGPD?",
           "opcoes": [
-            { "t": "Assino, é só um papel.", "vai": "fim-parecer", "nota": 0, "comenta": "Declarar conformidade com a LGPD é parecer jurídico. Não é seu papel." },
-            { "t": "Escrevo que, pelo que vi, parece estar tudo certo.", "vai": "fim-parecer", "nota": 1, "comenta": "Melhor que assinar, mas ainda soa como parecer. Liste riscos e perguntas, não conclusões jurídicas." },
-            { "t": "Eu aponto os riscos de dados que achei e as perguntas para o jurídico. Quem dá o parecer é o jurídico ou o encarregado de dados.", "vai": "fim-bom", "nota": 2, "comenta": "Escopo claro: você organiza; quem conclui é quem tem a habilitação." }
+            {
+              "t": "Assino, é só um papel.",
+              "vai": "fim-parecer",
+              "nota": 0,
+              "comenta": "Declarar conformidade com a LGPD é parecer jurídico. Não é seu papel."
+            },
+            {
+              "t": "Escrevo que, pelo que vi, parece estar tudo certo.",
+              "vai": "fim-parecer",
+              "nota": 1,
+              "comenta": "Melhor que assinar, mas ainda soa como parecer. Liste riscos e perguntas, não conclusões jurídicas."
+            },
+            {
+              "t": "Eu aponto os riscos de dados que achei e as perguntas para o jurídico. Quem dá o parecer é o jurídico ou o encarregado de dados.",
+              "vai": "fim-bom",
+              "nota": 2,
+              "comenta": "Escopo claro: você organiza; quem conclui é quem tem a habilitação."
+            }
           ]
         },
-        "fim-promessa": { "fim": true, "titulo": "Promessa que não dá para cumprir", "texto": "O Carlos fechou com base numa garantia. No primeiro incidente, a conversa vai ser sobre a sua promessa, não sobre o agente." },
-        "fim-invasao": { "fim": true, "titulo": "Passou da linha", "texto": "Teste de invasão sem habilitação nem autorização por escrito pode causar dano e trazer problema legal para você e para a empresa." },
-        "fim-parecer": { "fim": true, "titulo": "Quase lá", "texto": "Você segurou as duas primeiras, mas terminou dando algo parecido com um parecer jurídico. Troque conclusões por riscos e perguntas." },
-        "fim-bom": { "fim": true, "titulo": "Escopo claro", "texto": "O Carlos sabe o que vai receber (triagem com evidência e plano de 30 dias), quem chamar para invasão e quem dá o parecer de LGPD." }
+        "fim-promessa": {
+          "fim": true,
+          "titulo": "Promessa que não dá para cumprir",
+          "texto": "O Carlos fechou com base numa garantia. No primeiro incidente, a conversa vai ser sobre a sua promessa, não sobre o agente."
+        },
+        "fim-invasao": {
+          "fim": true,
+          "titulo": "Passou da linha",
+          "texto": "Teste de invasão sem habilitação nem autorização por escrito pode causar dano e trazer problema legal para você e para a empresa."
+        },
+        "fim-parecer": {
+          "fim": true,
+          "titulo": "Quase lá",
+          "texto": "Você segurou as duas primeiras, mas terminou dando algo parecido com um parecer jurídico. Troque conclusões por riscos e perguntas."
+        },
+        "fim-bom": {
+          "fim": true,
+          "titulo": "Escopo claro",
+          "texto": "O Carlos sabe o que vai receber (triagem com evidência e plano de 30 dias), quem chamar para invasão e quem dá o parecer de LGPD."
+        }
       },
       "licao": "Dizer o que você não faz, com uma entrega clara no lugar, vale mais do que prometer tudo."
     },
@@ -249,20 +350,53 @@
       "tipo": "resumo",
       "titulo": "Resumo da aula",
       "itens": [
-        { "t": "Você faz", "texto": "Mapear, apontar com evidência, propor, ensinar, acompanhar." },
-        { "t": "Você não faz", "texto": "Pentest, resposta a incidente, parecer jurídico, garantia total." },
-        { "t": "Garante e não garante", "texto": "Toda entrega diz os dois lados." },
-        { "t": "Credencial", "texto": "Certificado de qualificação INEMA; não é profissão regulada." }
+        {
+          "t": "Você faz",
+          "texto": "Mapear, apontar com evidência, propor, ensinar, acompanhar."
+        },
+        {
+          "t": "Você não faz",
+          "texto": "Pentest, resposta a incidente, parecer jurídico, garantia total."
+        },
+        {
+          "t": "Garante e não garante",
+          "texto": "Toda entrega diz os dois lados."
+        },
+        {
+          "t": "Credencial",
+          "texto": "Certificado de qualificação INEMA; não é profissão regulada."
+        }
       ]
     },
     {
       "tipo": "links",
       "titulo": "Para ir além",
       "links": [
-        { "t": "LOOP-R (INEMA): o que um método garante e o que não garante", "href": "https://inematds.github.io/loop-r/curso/", "icone": "lista" },
-        { "t": "Mapa do Cliente (INEMA): o que o consultor de soluções de IA não é", "href": "https://inematds.github.io/mapacliente/", "icone": "camadas" },
-        { "t": "Programa Profissional 2030: formações e certificação", "href": "https://inematds.github.io/profissional-2030/", "icone": "escudo" },
-        { "t": "ANPD: Autoridade Nacional de Proteção de Dados", "href": "https://www.gov.br/anpd/pt-br", "icone": "arquivo" }
+        {
+          "t": "LOOP-R (INEMA): o que um método garante e o que não garante",
+          "href": "https://inematds.github.io/loop-r/curso/",
+          "icone": "lista"
+        },
+        {
+          "t": "Mapa do Cliente (INEMA): o que o consultor de soluções de IA não é",
+          "href": "https://inematds.github.io/mapacliente/",
+          "icone": "camadas"
+        },
+        {
+          "t": "Programa Profissional 2030: formações e certificação",
+          "href": "https://inematds.github.io/profissional-2030/",
+          "icone": "escudo"
+        },
+        {
+          "t": "ANPD: Autoridade Nacional de Proteção de Dados",
+          "href": "https://www.gov.br/anpd/pt-br",
+          "icone": "arquivo"
+        },
+        {
+          "t": "BSI: o que é a ISO/IEC 42001 (sistema de gestão de IA)",
+          "href": "https://www.bsigroup.com/en-GB/products-and-services/standards/iso-42001-ai-management-system/",
+          "icone": "arquivo"
+        }
       ]
     }
   ]

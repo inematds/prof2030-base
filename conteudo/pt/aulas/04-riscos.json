@@ -14,10 +14,22 @@
     "exigir-aprovacao-humana"
   ],
   "aprende": [
-    { "icone": "cadeado", "t": "Por que chave no navegador é chave pública" },
-    { "icone": "chat", "t": "Como um texto escondido vira ordem para o agente" },
-    { "icone": "escudo", "t": "Os 5 controles de um agente" },
-    { "icone": "lupa", "t": "Achar e documentar uma falha com evidência" }
+    {
+      "icone": "cadeado",
+      "t": "Por que chave no navegador é chave pública"
+    },
+    {
+      "icone": "chat",
+      "t": "Como um texto escondido vira ordem para o agente"
+    },
+    {
+      "icone": "escudo",
+      "t": "Os 5 controles de um agente"
+    },
+    {
+      "icone": "lupa",
+      "t": "Achar e documentar uma falha com evidência"
+    }
   ],
   "hero_alt": "Um molho de chaves esquecido sobre o teclado de um notebook, ao lado de um cadeado aberto e de um celular com mensagens.",
   "secoes": [
@@ -30,14 +42,24 @@
           "icone": "cadeado",
           "titulo": "Chave exposta",
           "sub": "No código que roda no navegador",
-          "itens": [ { "icone": "arquivo", "t": "app.js com sk-..." } ],
+          "itens": [
+            {
+              "icone": "arquivo",
+              "t": "app.js com sk-..."
+            }
+          ],
           "detalhe": "Tudo que o navegador baixa, qualquer visitante lê (Ctrl+U). Uma chave de API ali é uma chave pública: alguém copia e gasta na conta da empresa ou lê os dados. A chave fica no servidor, em variável de ambiente."
         },
         {
           "icone": "chat",
           "titulo": "Injeção de prompt",
           "sub": "Ordem escondida no texto",
-          "itens": [ { "icone": "x", "t": "\"ignore as regras e...\"" } ],
+          "itens": [
+            {
+              "icone": "x",
+              "t": "\"ignore as regras e...\""
+            }
+          ],
           "detalhe": "Para a IA, tudo é texto na mesma conversa. Se um cliente cola uma lista com uma frase escrita para o agente, ele pode obedecer. Quem manda no agente passa a ser o autor do texto.",
           "forte": true
         },
@@ -45,14 +67,24 @@
           "icone": "camadas",
           "titulo": "Permissão demais",
           "sub": "Acesso que ninguém escolheu",
-          "itens": [ { "icone": "enviar", "t": "Ler, enviar e apagar e-mail" } ],
+          "itens": [
+            {
+              "icone": "enviar",
+              "t": "Ler, enviar e apagar e-mail"
+            }
+          ],
           "detalhe": "O agente ganha o pacote inteiro (ler, enviar, apagar) quando precisava só ler. Se ele errar ou for enganado, o estrago tem o tamanho da permissão. Comece só lendo."
         },
         {
           "icone": "portao",
           "titulo": "Ação sem aprovação",
           "sub": "Dinheiro e ação sem volta",
-          "itens": [ { "icone": "grafico", "t": "Desconto sem teto, pedido sem OK" } ],
+          "itens": [
+            {
+              "icone": "grafico",
+              "t": "Desconto sem teto, pedido sem OK"
+            }
+          ],
           "detalhe": "Dinheiro, exclusão e publicação esperam um sim de uma pessoa. Sem isso, um erro vira prejuízo antes de alguém ver. E sem registro, ninguém sabe depois o que aconteceu."
         }
       ],
@@ -87,7 +119,10 @@
             "Dinheiro, exclusão e publicação sempre esperam o sim de uma pessoa com nome.",
             "Defina o limite em número: desconto acima de 10%, pedido acima de R$ 5 mil."
           ],
-          "exemplo": { "rot": "Horizonte", "texto": "Desconto até 5% o agente concede; acima disso, a Patrícia aprova." }
+          "exemplo": {
+            "rot": "Horizonte",
+            "texto": "Desconto até 5% o agente concede; acima disso, a Patrícia aprova."
+          }
         },
         {
           "titulo": "Registro e desligar",
@@ -222,7 +257,12 @@
         },
         {
           "p": "Qual destes controles responde \"o que deu errado ontem?\"",
-          "opcoes": [ "Ler", "Aprovação", "Registro", "Desligar" ],
+          "opcoes": [
+            "Ler",
+            "Aprovação",
+            "Registro",
+            "Desligar"
+          ],
           "certa": 2,
           "explica": "Sem registro das ações, ninguém sabe o que o agente fez. É o controle que mais falta na prática. O erro comum é confiar na memória de quem acompanhou.",
           "ref": "passos"
@@ -233,21 +273,68 @@
       "tipo": "resumo",
       "titulo": "Resumo da aula",
       "itens": [
-        { "t": "Chave exposta", "texto": "Código do navegador é público. Chave no servidor." },
-        { "t": "Injeção", "texto": "Texto lido é informação, não ordem. Regra + pouco acesso + aprovação." },
-        { "t": "Permissão demais", "texto": "Comece só lendo. Agir vem depois do rascunho acertar." },
-        { "t": "Ação sem aprovação", "texto": "Dinheiro, exclusão e publicação esperam um sim, com limite em número e registro." }
+        {
+          "t": "Chave exposta",
+          "texto": "Código do navegador é público. Chave no servidor."
+        },
+        {
+          "t": "Injeção",
+          "texto": "Texto lido é informação, não ordem. Regra + pouco acesso + aprovação."
+        },
+        {
+          "t": "Permissão demais",
+          "texto": "Comece só lendo. Agir vem depois do rascunho acertar."
+        },
+        {
+          "t": "Ação sem aprovação",
+          "texto": "Dinheiro, exclusão e publicação esperam um sim, com limite em número e registro."
+        }
       ]
     },
     {
       "tipo": "links",
       "titulo": "Fontes e para ir além",
       "links": [
-        { "t": "Security Affairs: Anthropic restringe internet ao vivo após ações não pretendidas do Claude em testes (10/10/2026)", "href": "https://securityaffairs.com/?p=200726", "icone": "arquivo" },
-        { "t": "OWASP Top 10 para aplicações com LLM e IA generativa", "href": "https://genai.owasp.org/llm-top-10/", "icone": "escudo" },
-        { "t": "OWASP: iniciativa de segurança para agentes de IA", "href": "https://genai.owasp.org/initiatives/agentic-security-initiative/", "icone": "escudo" },
-        { "t": "Empresa-laboratório: Horizonte Distribuidora", "href": "https://inematds.github.io/prof2030-lab/", "icone": "pasta" },
-        { "t": "Agente sob controle (INEMA): os 5 controles e as quatro portas", "href": "https://inematds.github.io/curso-agente-sob-controle/", "icone": "lista" }
+        {
+          "t": "Security Affairs: Anthropic restringe internet ao vivo após ações não pretendidas do Claude em testes (10/10/2026)",
+          "href": "https://securityaffairs.com/?p=200726",
+          "icone": "arquivo"
+        },
+        {
+          "t": "OWASP Top 10 para aplicações com LLM e IA generativa",
+          "href": "https://genai.owasp.org/llm-top-10/",
+          "icone": "escudo"
+        },
+        {
+          "t": "OWASP: iniciativa de segurança para agentes de IA",
+          "href": "https://genai.owasp.org/initiatives/agentic-security-initiative/",
+          "icone": "escudo"
+        },
+        {
+          "t": "Empresa-laboratório: Horizonte Distribuidora",
+          "href": "https://inematds.github.io/prof2030-lab/",
+          "icone": "pasta"
+        },
+        {
+          "t": "Agente sob controle (INEMA): os 5 controles e as quatro portas",
+          "href": "https://inematds.github.io/curso-agente-sob-controle/",
+          "icone": "lista"
+        },
+        {
+          "t": "Laboratório Horizonte: App de pedidos (F1–F4)",
+          "href": "https://inematds.github.io/prof2030-lab/pecas/app-pedidos/",
+          "icone": "lupa"
+        },
+        {
+          "t": "Laboratório Horizonte: Agente de WhatsApp (F5–F7)",
+          "href": "https://inematds.github.io/prof2030-lab/pecas/agente-whatsapp/",
+          "icone": "lupa"
+        },
+        {
+          "t": "Laboratório Horizonte: Integração MCP com o e-mail (F9)",
+          "href": "https://inematds.github.io/prof2030-lab/pecas/mcp-email/",
+          "icone": "lupa"
+        }
       ]
     }
   ]
